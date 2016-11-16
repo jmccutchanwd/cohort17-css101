@@ -1,0 +1,14 @@
+/* Step 1 */
+
+p {}
+
+.kermit {}
+
+.main-div-1 {}
+
+/* step 2 */
+
+#main-div-2 .kermit {}
+
+#main-div-2  p {} /* first level down, direct child */
+

@@ -1,14 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Mystery+Quest');
+
 /* Step 1 */
+p {
+	border-bottom: 5px solid gray;
+}
 
-p {}
+.kermit {
+	border: 5px solid green;
+}
 
-.kermit {}
-
-.main-div-1 {}
+#main-div-1 {
+	padding: 20px;
+}
 
 /* step 2 */
 
-#main-div-2 .kermit {}
+#main-div-2 .kermit {
+	border: 5px dotted purple;
+}
 
-#main-div-2  p {} /* first level down, direct child */
+#main-div-2  p {
+	background-color: yellow;
+} /* first level down, direct child */
+
+/* step 3 */
+
+#main-div-3 {
+	background-color: lightblue;
+}
+
+strong {
+	background-color: rgba(112, 138, 144, 0.8);
+}
+
+#main-div-3 p:nth-child(3) {
+	color: #fff;
+}
+
+.sub-div {
+	font-family: 'Mystery Quest', cursive;
+}
+
+.sub-div ul li:nth-child(1) {
+	font-size: 30px;
+}
+
+.sub-div ul li:nth-child(2) {
+	font-weight: bold;
+}
+
+.sub-div ul li:nth-child(3) {
+	text-transform: uppercase;;
+}
+
+#main-div-4 strong {
+	background-color: inherit;
+}
+
 

@@ -57,4 +57,32 @@ strong {
 	background-color: inherit;
 }
 
+/*img {
+	width: 23%;
+	height: auto;
+}*/
+
+#flex-kermit{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#flex-kermit img{
+	width: 30%;
+	height: auto;
+}
+
+input:valid {
+	background-color: yellow;
+}
+
+input:invalid {
+	background-color: red;
+}
+
+
+
+
+
+
 
